@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Dining | Lawson Grand Hotel</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">Lawson Grand</div>
+
+<ul class="nav-links">
+
+<li><a href="index.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="rooms.html">Rooms</a></li>
+<li><a href="restaurant.html">Dining</a></li>
+<li><a href="gallery.html">Gallery</a></li>
+<li><a href="contact.html">Contact</a></li>
+
+</ul>
+
+<a href="./restaurant.html#section-title" class="book-btn">
+Reserve
+</a>
+
+<div class="menu-btn">
+<i class="fas fa-bars"></i>
+</div>
+
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="restaurant-hero">
+
+<div class="restaurant-content">
+
+<span>FINE DINING & BAR EXPERIENCE</span>
+
+
+
+<p>
+
+A world of exceptional cuisine,
+crafted with passion and served
+in an atmosphere of elegance.
+
+</p>
+
+</div>
+
+</section>
+
+<!-- ABOUT -->
+
+<section class="restaurant-about">
+
+<div class="container">
+
+<div class="dish-card">
+
+<img src="images/restaurant 2 Medium.jpeg"
+alt="Restaurant">
+
+</div>
+
+<div class="welcome-content">
+
+<span>OUR RESTAURANT</span>
+
+<h2>Dining Beyond Expectations</h2>
+
+<p>
+
+At Lawson Grand Dining,
+every meal is a celebration.
+
+Our chefs combine local flavors
+with international techniques to
+create unforgettable culinary moments.
+
+</p>
+
+</div>
+
+<div class="dish-card">
+
+<img src="images/bar 2 Medium.jpeg"
+alt="Restaurant">
+
+</div>
+
+<div class="welcome-content">
+
+<span>OUR BAR & LOUNGE </span>
+
+<h2>Beyond Liquor</h2>
+
+<p>
+At Lawson Grand Point Hotel Bar and Lounge, 
+we serve more than just premium drinks  🥂.
+ We offer an upscale escape where sophisticated ambiance,
+  exceptional service, and great music come together. 
+  It is not just a night out—it is an experience.
+
+</p>
+
+</div>
+
+
+</div>
+
+</section>
+
+<!-- SIGNATURE DISHES -->
+
+<section class="signature-dishes">
+
+<div class="section-title">
+
+<span>FEATURED MENU</span>
+
+<h2>Signature Dishes</h2>
+
+</div>
+
+<div class="dish-grid">
+
+<div class="dish-card">
+
+<img src="images/grilled salmon ing.jpeg">
+
+<h3>Intercontinental Dishes</h3>
+
+<p>
+Fresh Atlantic salmon served with
+seasonal vegetables.
+</p>
+
+</div>
+
+
+<div class="dish-card">
+
+<img src="images/jollof rice and chicken.jpeg">
+
+<h3>Local Dishes </h3>
+
+<p>
+Jollof Rice and Chicken is the definitive culinary 
+icon of West African cuisine. 
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- CHEF -->
+
+<section class="chef-section">
+
+<div class="container">
+
+<div>
+
+<img src="./images/chef img.webp">
+
+</div>
+
+<div class="welcome-content">
+
+<span>EXECUTIVE CHEF</span>
+
+
+<p>
+Backed by a wealth of international and local experience,
+ our executive chef brings passion and precision to every plate.
+  We marry classical techniques with bold, vibrant flavors,
+ ensuring every meal at Lawson Grand Point Hotel is a truly 
+ memorable experience.
+
+</p>
+
+</div>
+
+</div>
+
+</section>
+
+<!-- RESERVATION -->
+
+<section class="restaurant-booking">
+
+<div id="section-title" class="section-title">
+
+<span>TABLE RESERVATION</span>
+
+<h2>Reserve Your Table</h2>
+
+</div>
+
+<form class="reservation-form" id="restaurantForm">
+
+<label for="name">Full Name</label>
+<input
+type="text"
+id="name"
+autocomplete="name"
+required>
+
+<label for="phone">Phone Number</label>
+<input
+type="tel"
+id="phone"
+autocomplete="tel"
+required>
+
+<label for="email">Email</label>
+<input
+type="email"
+id="email"
+autocomplete="email"
+required>
+
+<label for="date">Reservation Date</label>
+<input
+type="date"
+id="date"
+required>
+
+<label for="time">Reservation Time</label>
+<input
+type="time"
+id="time"
+required>
+
+<label for="guests">Guests</label>
+<select id="guests">
+
+<option value="1">1 Guest</option>
+<option value="2">2 Guests</option>
+<option value="3">3 Guests</option>
+<option value="4">4 Guests</option>
+<option value="5">5 Guests</option>
+<option value="6">6 Guests</option>
+
+</select>
+
+<button type="submit" id="restaurantBtn">
+    Reserve Table
+</button>
+<div id="restaurantMessage"></div>
+</form>
+
+</section>
+
+<!-- CTA -->
+
+<section class="cta">
+
+<div class="cta-content">
+
+<h2>
+Experience Fine Dining Today
+</h2>
+
+<p>
+
+Join us for a memorable dining
+experience unlike any other.
+
+</p>
+
+<a href="./restaurant.html#section-title" class="primary-btn">
+
+Reserve Table
+
+</a>
+
+</div>
+
+</section>
+
+<script src="js/script.js"></script>
+
+
+<!-- WHATSAPP -->
+
+<a
+href="https://wa.me/+2348134022589"
+class="whatsapp-btn"
+target="_blank">
+
+<i class="fab fa-whatsapp"></i>
+
+</a>
+
+<script src="./js/restaurant.js"></script>
+</body>
+</html>

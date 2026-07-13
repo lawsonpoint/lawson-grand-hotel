@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Admin Dashboard</title>
+
+<link rel="stylesheet" href="../admin css/admin.css">
+
+</head>
+<body>
+
+<div class="admin-layout">
+
+<aside class="sidebar">
+
+<h2>Lawson Grand</h2>
+
+
+<ul>
+
+<li><a href="./dashboard.html">Dashboard</a></li>
+
+<li><a href="./bookings.html">Bookings</a></li>
+
+<li><a href="./messages.html">Messages</a></li>
+
+<li><a href="./subscribers.html">Subscribers</a></li>
+
+<li><a href="./restaurant-reservation.html">Restaurant</a></li>
+
+
+
+
+
+<button id="logoutBtn">
+    <i class="fa-solid fa-right-from-bracket"></i>
+    Logout
+</button>
+
+
+</ul>
+
+</aside>
+
+<main class="content">
+
+<h1>Dashboard Overview</h1>
+
+<div class="stats-grid">
+<div class="card">
+    <h3>Total Reservations</h3>
+    <span id="totalReservations">0</span>
+</div>
+
+<div class="card">
+    <h3>Hotel Bookings</h3>
+    <span id="hotelBookings">0</span>
+</div>
+
+<div class="card">
+    <h3>Restaurant</h3>
+    <span id="restaurantBookings">0</span>
+</div>
+
+</div>
+
+</main>
+
+<script src="../admin js/api.js"></script>
+<script src="../admin js/dashboard.js"></script>
+
+</body>
+</html>

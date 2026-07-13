@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+
+<title>Bookings</title>
+
+<link rel="stylesheet" href="../admin css/admin.css">
+
+</head>
+<body>
+
+<div class="admin-layout">
+
+<aside class="sidebar">
+
+<h2>Lawson Grand</h2>
+
+</aside>
+
+<main class="content">
+
+<h1>Reservations</h1>
+
+<div class="search-container">
+
+<input
+type="text"
+id="searchBooking"
+placeholder="Search by name, room, reference">
+
+</div>
+
+
+<div class="table-wrapper">
+
+<table>
+
+<thead>
+
+<tr>
+<th>Booking Ref No</th>
+<th>Guest</th>
+<th>Room</th>
+<th>Price</th>
+<th>Night</th>
+<th>TotalAmount</th>
+<th>check in</th>
+<th>Payment Ref No</th>
+<th>Confirm Payment</th>
+<th>Status</th>
+
+<th>Send Receipt</th> 
+</tr>
+
+</thead>
+
+<tbody id="bookingsTable">
+</tbody>
+ 
+</table>
+</div>
+</main>
+
+</div>
+<script src="../admin js/api.js"></script>
+<script src="../admin js/admin-bookings.js"></script>
+
+</body>
+</html>
