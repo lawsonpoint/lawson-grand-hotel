@@ -11,7 +11,7 @@ mongoose.connect(process.env.MONGO_URI)
     const hashedPassword =
     await bcrypt.hash(
 
-        "Lawson12",
+        "lawson11",
 
         10
 
