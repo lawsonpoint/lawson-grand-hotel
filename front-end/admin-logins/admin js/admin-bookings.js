@@ -6,7 +6,7 @@ if (!token) {
 
 }
 
-fetch("http://localhost:5200/api/admin/verify", {
+fetch("https://lawson-grand-hotel.onrender.com/api/admin/verify", {
 
     headers: {
 
@@ -32,7 +32,7 @@ async function loadBookings(){
 
 try{
  const response = await fetch(
-    "http://localhost:5200/api/bookings",
+    "https://lawson-grand-hotel.onrender.com/api/bookings",
     {
         headers: getAuthHeaders()
     }
@@ -208,7 +208,7 @@ try{
 
     await fetch(
 
-    `http://localhost:5200/api/bookings/${id}`,
+    `https://lawson-grand-hotel.onrender.com/api/bookings/${id}`,
 
     {
 
@@ -241,7 +241,7 @@ try{
 
     await fetch(
 
-    `http://localhost:5200/api/bookings/${id}/payment`,
+    `https://lawson-grand-hotel.onrender.com/api/bookings/${id}/payment`,
 
     {
         method:"PATCH",

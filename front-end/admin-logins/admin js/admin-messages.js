@@ -6,7 +6,7 @@ if (!token) {
 
 }
 
-fetch("http://localhost:5200/api/admin/verify", {
+fetch("https://lawson-grand-hotel.onrender.com/api/admin/verify", {
 
     headers: {
 
@@ -31,7 +31,7 @@ async function loadMessages() {
 
     try {
         const response = await fetch(
-    "http://localhost:5200/api/messages",
+    "https://lawson-grand-hotel.onrender.com/api/messages",
     {
         headers: getAuthHeaders()
     }

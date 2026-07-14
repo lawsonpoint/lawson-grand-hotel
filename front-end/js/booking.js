@@ -187,7 +187,7 @@ Processing Booking...
 
 
 const response = await fetch(
-    "http://localhost:5200/api/bookings",
+    "https://lawson-grand-hotel.onrender.com/api/bookings",
     {
         method: "POST",
         headers: {

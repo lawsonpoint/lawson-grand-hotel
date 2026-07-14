@@ -15,7 +15,7 @@ loginForm.addEventListener("submit", async (e) => {
     try {
 
         const response = await fetch(
-            "http://localhost:5200/api/admin/login",
+            "https://lawson-grand-hotel.onrender.com/api/admin/login",
             {
                 method: "POST",
                 headers: {

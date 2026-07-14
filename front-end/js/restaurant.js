@@ -23,7 +23,7 @@ if (restaurantForm) {
 
             const response =
             await fetch(
-                "http://localhost:5200/api/restaurant",
+                "https://lawson-grand-hotel.onrender.com/api/restaurant",
                 {
                     method: "POST",
 

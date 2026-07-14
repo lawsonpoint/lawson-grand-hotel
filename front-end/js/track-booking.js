@@ -15,7 +15,7 @@ document.getElementById("email").value;
 
 const response =
 await fetch(
-"http://localhost:5200/api/bookings/track",
+"https://lawson-grand-hotel.onrender.com/api/bookings/track",
 {
 
 method:"POST",

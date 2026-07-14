@@ -23,7 +23,7 @@ try{
 
 const response =
 await fetch(
-"http://localhost:5200/api/messages",
+"https://lawson-grand-hotel.onrender.com/api/messages",
 {
 
 method:"POST",

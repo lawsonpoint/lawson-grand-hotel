@@ -6,7 +6,7 @@ async function loadDashboardStats(){
 
         const hotelResponse =
         await fetch(
-        "http://localhost:5200/api/bookings",
+        "https://lawson-grand-hotel.onrender.com/api/bookings",
         {
             headers:{
                 Authorization:`Bearer ${token}`
@@ -15,7 +15,7 @@ async function loadDashboardStats(){
 
         const restaurantResponse =
         await fetch(
-        "http://localhost:5200/api/restaurant",
+        "https://lawson-grand-hotel.onrender.com/api/restaurant",
         {
             headers:{
                 Authorization:`Bearer ${token}`
