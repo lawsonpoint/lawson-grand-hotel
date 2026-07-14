@@ -65,6 +65,10 @@ app.use((err, req, res, next) => {
 
 });
 
+app.get("/", (req, res) => {
+    res.send("Welcome to Lawson Grand Hotel API");
+});
+
 app.listen(PORT, () => {
     console.log(
     `Server Running on ${PORT}`
