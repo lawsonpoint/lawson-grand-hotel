@@ -28,7 +28,7 @@ setImmediate(async () => {
     try {
 
         await sendEmail(
-            process.env.EMAIL_USER,
+            process.env.FROM_EMAIL,
             "New Booking Reservation",
 
             `

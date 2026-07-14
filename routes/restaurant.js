@@ -27,7 +27,7 @@ req.body
 
 await sendEmail(
 
-process.env.EMAIL_USER,
+process.env.FROM_EMAIL,
 
 "New Restaurant Reservation",
 

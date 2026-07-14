@@ -31,7 +31,7 @@ setImmediate(async () => {
     try {
 
         await sendEmail(
-            process.env.EMAIL_USER,
+            process.env.FROM_EMAIL,
             "New Contact Form Message",
             `
             <h2>New Contact Message</h2>
