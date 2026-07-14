@@ -8,7 +8,7 @@ const sendEmail = require("./utils/sendEmail");
 
         await sendEmail(
 
-            process.env.FROM_EMAIL,
+            process.env.EMAIL_USER,
 
             "Test Email",
 
