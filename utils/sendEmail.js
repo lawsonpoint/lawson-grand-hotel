@@ -1,48 +1,38 @@
 const nodemailer = require("nodemailer");
 
 const transporter = nodemailer.createTransport({
-
-    host: "smtp.gmail.com",
-
-    port: 465,
-
-    secure: true,
-
+    host: "b1ee84001@smtp-brevo.com",
+    port: 2525,
+    secure: false,
     auth: {
-
         user: process.env.EMAIL_USER,
-
         pass: process.env.EMAIL_PASS
-
-    },
-
-    connectionTimeout: 30000,
-
-    greetingTimeout: 30000,
-
-    socketTimeout: 30000
-
-});
-transporter.verify((err, success) => {
-    if (err) {
-        console.error("SMTP Error:", err);
-    } else {
-        console.log("SMTP Ready");
     }
 });
 
-module.exports = async (to, subject, html) => {
+transporter.verify((error, success) => {
+    if (error) {
+        console.error("SMTP Verify Error:", error);
+    } else {
+        console.log("SMTP server is ready.");
+    }
+}); 
 
-    return transporter.sendMail({
+const sendEmail = async ({ to, subject, html }) => {
+    try {
+        const info = await transporter.sendMail({
+          from: `"Lawson Grand Hotel" <${process.env.FROM_EMAIL}>`,  
+            to,
+            subject,
+            html
+        });
 
-        from: `"Lawson Grand Hotel" <${process.env.EMAIL_USER}>`,
+        console.log("✅ Email Sent:", info.messageId);
 
-        to,
-
-        subject,
-
-        html
-
-    });
-
+    } catch (error) {
+        console.error("❌ Email Error:", error);
+        throw error;
+    }
 };
+
+module.exports = sendEmail;
