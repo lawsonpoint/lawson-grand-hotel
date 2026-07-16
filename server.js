@@ -9,7 +9,8 @@ const app = express();
 
 app.use(cors({
     origin: [
-        "https://lawson-grand-hotel.vercel.app"
+        "http://lawsongrandhotel.com",
+        "http://www.lawsongrandhotel.com"
     ]
 }));
 app.use(express.json());
