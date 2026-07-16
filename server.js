@@ -9,8 +9,8 @@ const app = express();
 
 app.use(cors({
     origin: [
-        "http://lawsongrandhotel.com",
-        "http://www.lawsongrandhotel.com"
+        "https://lawsongrandhotel.com",
+        "https://www.lawsongrandhotel.com"
     ]
 }));
 app.use(express.json());
