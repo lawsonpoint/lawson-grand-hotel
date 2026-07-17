@@ -1,89 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type="text/xsl" href="/download/2dbeeada5-d4edb5e4a/sitemap.xsl"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
   <url>
-       <loc>https://www.lawsongrandhotel.com/</loc>
-       <lastmod>2026-07-16T20:30:11+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>1.0000</priority>
+    <loc>https://www.lawsongrandhotel.com/</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/index.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/about.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/about.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/rooms.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/rooms.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/restaurant.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/restaurant.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/gallery.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/gallery.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/contact.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/contact.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/lawsonhotelbooking.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/lawsonhotelbooking.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/track-booking.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.7</priority>
   </url>
+
   <url>
-       <loc>https://www.lawsongrandhotel.com/track-booking.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.8000</priority>
+    <loc>https://www.lawsongrandhotel.com/leadership/chief%20oni%20ceo.html</loc>
+    <lastmod>2026-07-16</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.6</priority>
   </url>
-  <url>
-       <loc>https://www.lawsongrandhotel.com/leadership/chief%20oni%20ceo.html</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.lawsongrandhotel.com/lawsonhotelbooking.html?room=Deluxe%20Room</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.lawsongrandhotel.com/lawsonhotelbooking.html?room=Executive%20Room</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.lawsongrandhotel.com/lawsonhotelbooking.html?room=Exclusive%20Room</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
-  <url>
-       <loc>https://www.lawsongrandhotel.com/lawsonhotelbooking.html?room=Suite%20Room</loc>
-       <lastmod>2026-07-16T21:14:04+00:00</lastmod>
-       <changefreq>daily</changefreq>
-       <priority>0.6400</priority>
-  </url>
+
 </urlset>
