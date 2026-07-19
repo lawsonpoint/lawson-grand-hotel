@@ -253,3 +253,45 @@ reserveBtn.innerHTML =
     }
 
 }
+
+const popup = document.getElementById("whatsappPopup");
+
+const closePopup = document.getElementById("closePopup");
+
+window.addEventListener("load",()=>{
+
+if(sessionStorage.getItem("popupClosed")) return;
+
+setTimeout(()=>{
+
+popup.style.display="block";
+
+},2500);
+
+});
+
+closePopup.addEventListener("click",()=>{
+
+popup.style.display="none";
+
+sessionStorage.setItem("popupClosed","true");
+
+});
+
+function updateMessageTime() {
+
+    const now = new Date();
+
+    const options = {
+        hour: "numeric",
+        minute: "2-digit"
+    };
+
+    document.getElementById("messageTime").textContent =
+        `Today • ${now.toLocaleTimeString([], options)}`;
+
+}
+
+updateMessageTime();
+
+setInterval(updateMessageTime, 60000);
