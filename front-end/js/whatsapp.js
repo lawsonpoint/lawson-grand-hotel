@@ -7,10 +7,10 @@ const closeChat = document.getElementById("closeChat");
 window.addEventListener("load",()=>{
 
 setTimeout(()=>{
-
-if(localStorage.getItem("chatClosed")!=="true"){
+if(localStorage.getItem("chatShown")!=="true"){
 
 chatCard.style.display="block";
+sessionStorage.setItem("chatShown","true");
 
 }
 

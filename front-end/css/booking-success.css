@@ -86,3 +86,10 @@ background:#8b6508;
 
 }
 
+
+@media(max-width:768){
+    body{
+      padding: 90px;
+    }
+}
+
