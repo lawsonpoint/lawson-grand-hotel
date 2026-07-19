@@ -173,7 +173,7 @@ Phone: ${booking.phone}`;
         <td>
         <a
         target="_blank"
-        href="https://wa.me/2348071233350?text=${encodeURIComponent(whatsappMessage)}">
+        href="https://wa.me/9079020682?text=${encodeURIComponent(whatsappMessage)}">
 
         WhatsApp
 
