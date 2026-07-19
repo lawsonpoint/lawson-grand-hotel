@@ -255,26 +255,21 @@ reserveBtn.innerHTML =
 }
 
 const popup = document.getElementById("whatsappPopup");
-
 const closePopup = document.getElementById("closePopup");
 
-window.addEventListener("load",()=>{
+window.addEventListener("load", () => {
 
-if(sessionStorage.getItem("popupClosed")) return;
+    setTimeout(() => {
 
-setTimeout(()=>{
+        popup.style.display = "block";
 
-popup.style.display="block";
-
-},2500);
+    }, 2500);
 
 });
 
-closePopup.addEventListener("click",()=>{
+closePopup.addEventListener("click", () => {
 
-popup.style.display="none";
-
-sessionStorage.setItem("popupClosed","true");
+    popup.style.display = "none";
 
 });
 
