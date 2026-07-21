@@ -229,14 +229,21 @@ document.addEventListener("DOMContentLoaded", () => {
 
             });
 
+            bookingSummary.insertAdjacentHTML(
+    "beforeend",
+    `
+    <p class="booking-reference">
+        Booking Reference:
+        <strong>${result.booking.bookingReference}</strong>
+    </p>
+    `
+);
+
             // No success message
 bookingMessage.innerHTML = "";
+const whatsappMessage = `Hello Lawson Grand Hotel,
 
-const whatsappMessage =
-
-`Hello Lawson Grand Hotel,
-
-I'd like to reserve a room.
+I have just submitted a room reservation through your website.
 
 Booking Reference:
 ${result.booking.bookingReference}
@@ -265,10 +272,10 @@ ${bookingData.checkOut}
 Nights:
 ${bookingData.nights}
 
-Total:
+Estimated Total:
 ₦${bookingData.totalAmount.toLocaleString()}
 
-Please confirm room availability before payment.
+Kindly let me know if this room is available.
 
 Thank you.`;
 
@@ -285,7 +292,7 @@ viewBox="0 0 16 16">
 <path d="M13.601 2.326A7.854 7.854 0 0 0 8.01 0C3.58 0 0 3.58 0 8.01a7.94 7.94 0 0 0 1.18 4.188L0 16l3.93-1.15A7.94 7.94 0 0 0 8.01 16C12.44 16 16 12.42 16 7.99a7.85 7.85 0 0 0-2.399-5.664z"/>
 </svg>
 
-<span>Continue on WhatsApp</span>
+<span>Continue Reservations on WhatsApp</span>
 `;
 
 reserveBtn.onclick = () => {
