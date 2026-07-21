@@ -1,32 +1,58 @@
 const token = localStorage.getItem("adminToken");
 
+
+
 if (!token) {
+
+
 
     window.location.href = "login.html";
 
+
+
 }
+
+
 
 fetch("https://lawson-grand-hotel.onrender.com/api/admin/verify", {
 
+
+
     headers: {
+
+
 
         Authorization: `Bearer ${token}`
 
+
+
     }
 
+
+
 })
+
 .then(res => {
+
+
 
     if (!res.ok) {
 
+
+
         localStorage.removeItem("adminToken");
+
+
 
         window.location.href = "login.html";
 
+
+
     }
 
-});
 
+
+});
 async function loadBookings(){
 
 
@@ -131,6 +157,11 @@ Phone: ${booking.phone}`;
         ${booking.fullName}
         </td>
 
+
+        <td>
+        ${booking.phone}
+        </td>
+
         <td>
         ${booking.roomType}
         </td>
@@ -154,31 +185,18 @@ Phone: ${booking.phone}`;
         </td>
 
         <td>
-
-       ${booking.transactionReference}
-
+        ${new Date(
+            booking.checkOut
+        ).toLocaleDateString()}
         </td>
 
         
-       
         <td>
         ${paymentButton}
         </td>
 
         <td>
         ${actionButtons}
-        </td>
-
-       
-        <td>
-        <a
-        target="_blank"
-        href="https://wa.me/9079020682?text=${encodeURIComponent(whatsappMessage)}">
-
-        WhatsApp
-
-        </a>
-
         </td>
 
         </tr>
