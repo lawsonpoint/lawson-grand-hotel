@@ -315,9 +315,6 @@ reserveBtn.onclick = () => {
 
             reserveBtn.disabled = false;
 
-            reserveBtn.innerHTML =
-
-            "Reserve Now";
 
             bookingMessage.innerHTML = `
 
