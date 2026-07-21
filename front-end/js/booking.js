@@ -295,14 +295,13 @@ viewBox="0 0 16 16">
 <span>Continue Reservations on WhatsApp</span>
 `;
 
-reserveBtn.onclick = () => {
+reserveBtn.onclick = (e) => {
+
+    e.preventDefault();
 
     window.open(
-
         `https://wa.me/2348134022589?text=${encodeURIComponent(whatsappMessage)}`,
-
         "_blank"
-
     );
 
 };
@@ -315,6 +314,9 @@ reserveBtn.onclick = () => {
 
             reserveBtn.disabled = false;
 
+            reserveBtn.innerHTML =
+
+            "Reserve Now";
 
             bookingMessage.innerHTML = `
 
