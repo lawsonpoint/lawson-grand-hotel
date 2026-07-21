@@ -352,3 +352,81 @@ bottom:10px;
 }
 
 }
+
+
+
+.whatsapp-ready{
+
+background:#25D366 !important;
+
+border:none;
+
+color:#fff;
+
+font-size:18px;
+
+font-weight:700;
+
+display:flex;
+
+align-items:center;
+
+justify-content:center;
+
+gap:12px;
+
+padding:18px;
+
+border-radius:14px;
+
+cursor:pointer;
+
+transition:.3s;
+
+width:100%;
+
+box-shadow:0 8px 25px rgba(37,211,102,.35);
+
+animation:pulseWhatsapp 1.6s infinite;
+
+}
+
+.whatsapp-ready:hover{
+
+background:#1EBE5D !important;
+
+transform:translateY(-2px);
+
+}
+
+.whatsapp-ready svg{
+
+width:24px;
+
+height:24px;
+
+fill:#fff;
+
+}
+
+@keyframes pulseWhatsapp{
+
+0%{
+
+transform:scale(1);
+
+}
+
+50%{
+
+transform:scale(1.02);
+
+}
+
+100%{
+
+transform:scale(1);
+
+}
+
+}

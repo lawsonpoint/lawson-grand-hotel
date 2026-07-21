@@ -56,9 +56,10 @@ bookingReference:{
     type:String
 },
 
+
 transactionReference:{
     type:String,
-    required:true
+    default:"Pending WhatsApp Payment"
 },
 
 paymentStatus:{
@@ -69,9 +70,9 @@ paymentStatus:{
 
      
     status:{
-        type:String,
-        default:"Pending"
-    }
+    type:String,
+    default:"Awaiting WhatsApp Confirmation"
+}
 
 },{
     timestamps:true
