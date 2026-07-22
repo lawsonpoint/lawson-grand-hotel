@@ -43,13 +43,7 @@ ${booking.roomType}
 
 </p>
 
-<p>
 
-<strong>Transaction Reference:</strong>
-
-${booking.transactionReference}
-
-</p>
 
 <p>
 

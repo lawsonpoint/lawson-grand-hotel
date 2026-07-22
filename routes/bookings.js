@@ -38,7 +38,7 @@ setImmediate(async () => {
 
             <p><strong>Booking Reference:</strong> ${booking.bookingReference}</p>
 
-            <p><strong>Transaction Reference:</strong> ${booking.transactionReference}</p>
+            
 
             <hr>
 
@@ -83,8 +83,7 @@ setImmediate(async () => {
             <p><strong>Booking Reference:</strong>
             ${booking.bookingReference}</p>
 
-            <p><strong>Transaction Reference:</strong>
-            ${booking.transactionReference}</p>
+            
 
             <p><strong>Room:</strong>
             ${booking.roomType}</p>
@@ -288,6 +287,12 @@ router.patch("/:id", auth, async (req, res) => {
 
                 <p><strong>Total:</strong>
                 ₦${booking.totalAmount.toLocaleString()}</p>
+
+                <p><strong>Check-In:</strong>
+            ${new Date(booking.checkIn).toDateString()}</p>
+
+            <p><strong>Check-Out:</strong>
+            ${new Date(booking.checkOut).toDateString()}</p>
 
                 <p>We look forward to welcoming you.</p>
                 `
