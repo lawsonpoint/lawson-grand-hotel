@@ -56,18 +56,17 @@ bookingReference:{
     type:String
 },
 
-
-status: {
-    type: String,
-    enum: ["Pending", "Confirmed", "Rejected"],
-    default: "Pending"
+paymentStatus:{
+    type:String,
+    default:"Unpaid"
 },
 
-paymentStatus: {
-    type: String,
-    enum: ["Awaiting Payment", "Paid"],
-    default: "Awaiting Payment"
-},
+
+     
+    status:{
+        type:String,
+        default:"Pending"
+    }
 
 
 
