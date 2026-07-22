@@ -61,7 +61,7 @@ output.innerHTML = `
 
 <p><strong>Room:</strong> ${booking.roomType}</p>
 
-<p><strong>Transaction Reference:</strong> ${booking.transactionReference}</p>
+
 
 <p><strong>Status:</strong>
 <span class="status-badge ${booking.status.toLowerCase()}">
